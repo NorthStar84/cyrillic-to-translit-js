@@ -37,7 +37,7 @@ module.exports = function cyrillicToTranslit(config) {
       "и": "i",
       "ъ": "",
       "ы": "i",
-      "э": "e",
+      "э": "eh",
     });
   } else if (_preset === "uk") {
     Object.assign(_firstLetters, {
